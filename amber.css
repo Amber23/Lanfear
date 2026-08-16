@@ -1,0 +1,69 @@
+/* ===== Amber Elensar Ell — foglio di stile esterno ===== */
+
+body {
+  background-color: #000000;
+  background-image: repeating-linear-gradient(45deg, rgba(217,200,150,0.18) 0px, rgba(217,200,150,0.18) 2px, transparent 2px, transparent 24px);
+  margin: 0;
+  padding: 0;
+}
+
+/* Cornice dorata doppia attorno alle immagini */
+.amber-frame-outer {
+  border: 1px solid #d9c896;
+}
+.amber-frame-inner {
+  border: 1px solid #d9c896;
+}
+
+/* Titolo principale */
+.amber-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 34px;
+  letter-spacing: 2px;
+  color: #d9c896;
+}
+
+/* Titoli delle sezioni (accordion) */
+.amber-section-label {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  background-color: #000000;
+  color: #c9c7bd;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 2px;
+  border-top: 1px solid #d9c896;
+}
+
+/* Corpo delle sezioni — nascosto finché non è la sezione attiva (#target) */
+.amber-section-content {
+  display: none;
+  padding: 14px 16px;
+  background-color: #000000;
+}
+.amber-section-content:target {
+  display: block;
+}
+
+/* Capolettera illuminata */
+.amber-dropcap-box {
+  border: 1px solid #d9c896;
+}
+.amber-dropcap-letter {
+  font-family: 'MedievalSharp', Georgia, serif;
+  font-size: 34px;
+  color: #d9c896;
+}
+.amber-body-text {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.9;
+  color: #a8a49a;
+  text-align: justify;
+}
